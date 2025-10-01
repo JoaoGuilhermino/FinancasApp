@@ -15,6 +15,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - INFRASTRUCTURE", "4 - I
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasApp.Web", "FinancasApp.Web\FinancasApp.Web.csproj", "{44B00F59-6E5E-45F6-B651-6368138B6972}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasApp.Domain", "FinancasApp.Domain\FinancasApp.Domain.csproj", "{D116ACE3-B7FA-4351-A1F4-1FFE2F517176}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinancasApp.Infra.Data", "FinancasApp.Infra.Data\FinancasApp.Infra.Data.csproj", "{2CABB8E3-A2B7-46B2-9593-61DF6D59B70D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +38,14 @@ Global
 		{44B00F59-6E5E-45F6-B651-6368138B6972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44B00F59-6E5E-45F6-B651-6368138B6972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44B00F59-6E5E-45F6-B651-6368138B6972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D116ACE3-B7FA-4351-A1F4-1FFE2F517176}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D116ACE3-B7FA-4351-A1F4-1FFE2F517176}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D116ACE3-B7FA-4351-A1F4-1FFE2F517176}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D116ACE3-B7FA-4351-A1F4-1FFE2F517176}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CABB8E3-A2B7-46B2-9593-61DF6D59B70D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CABB8E3-A2B7-46B2-9593-61DF6D59B70D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CABB8E3-A2B7-46B2-9593-61DF6D59B70D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CABB8E3-A2B7-46B2-9593-61DF6D59B70D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +53,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{97D9DFC5-43A1-474C-B602-487BF9FE1CB3} = {CAE4CA64-AAFA-47E3-81C7-31AC7711DD5A}
 		{44B00F59-6E5E-45F6-B651-6368138B6972} = {D2112C02-391D-4F01-BF72-7E6A62274840}
+		{D116ACE3-B7FA-4351-A1F4-1FFE2F517176} = {E9FD2817-504C-4C93-84E8-F7FE465A4FA8}
+		{2CABB8E3-A2B7-46B2-9593-61DF6D59B70D} = {4236682D-64D6-4165-BEFA-332D09E612CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC51EDE7-3A64-4AA5-8131-3542E3D357F2}
